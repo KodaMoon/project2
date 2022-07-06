@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E3D6BC;
+    margin: 0;
+    padding: 0;
+}
+
+.title-logo {
+    width: 10%;
+}
+
+header {
+    background: linear-gradient(to bottom, #595959 0%,#e3d6bc 100%);
+    padding: 3%;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size 50px;
+    margin-left: 1%;
+    font-family: 'Mulish', sans-serif;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.sidebyside {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sidebyside2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section {
+    flex-basis: 55%;
+    background-color: #e6ccb;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+#image{
+    border-style: solid;
+      display: block;
+}
+
+footer{
+    background: linear-gradient(to bottom, #e3d6bc 0%,#595959 100%,#595959 100%);
+    text-align: center;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 2px;
+}
